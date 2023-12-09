@@ -1,0 +1,47 @@
+
+
+.sections-adm{
+    min-height: 100vh;
+    background:#fff;
+    padding-bottom: 100px;
+}
+
+.sections-adm .container-adm{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.sections-adm .container-adm .card-adm{
+    height:250px;
+    width: 350px;
+    overflow: hidden;
+    border:15px solid #fff;
+    box-shadow: 0 3px 5px rgba(0,0,0,.3);
+    margin: 20px;
+	text-align: center;
+}
+
+
+.sections-adm .container-adm a {
+	text-transform: capitalize;
+    text-decoration: none;
+}
+.sections-adm .container-adm .card-adm span {
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    color: #fff; 
+    background-color: #33383b;
+    transition: background-color 0.3s ease; 
+}
+.sections-adm .container-adm .card-adm:hover span {
+    transform: scale(1.4);
+	transition: transform 0.5s ease;
+    color: #8dccad;
+    background-color: rgba(0, 0, 0, 0.7);
+}

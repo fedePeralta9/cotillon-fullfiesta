@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <script src="https://kit.fontawesome.com/266a30db49.js" crossorigin="anonymous"></script>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="/frontend/css/style.css">
+    <title>Cotillón FullFiesta</title>
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <a href="index.html">
+                <img src="./img/logo.png" alt="Logo FullFiesta">
+            </a>
+
+        </div>
+        <!-- MENU RESPONSIVE -->
+        <input type="checkbox" id="check">
+        <label for="check" class="mostrar-menu">
+            &#8801;
+        </label>
+        <nav class="menu">
+            <a href="index.html">Inicio</a>
+            <a href="productos.html">Productos</a>
+            <a href="quienesSomos.html">Quienes Somos</a>
+            <a href="contacto.html">Contacto</a>
+            <div class="sesion-menu">
+                <input type="checkbox" id="sesionCheck">
+                <label for="sesionCheck">
+                    <i class="fa-solid fa-user"></i>
+                </label>
+                <ul class="sesion-dropdown">
+                    <li><a href="login.html">Iniciar Sesión</a></li>
+                    <li><a href="#" onclick="cerrarSesion()">Cerrar Sesión</a></li>
+                </ul>
+            </div>
+            <label for="check" class="esconder-menu">
+                &#215;
+            </label>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <div class="banner-ppal">
+                <span class="banner-envio">Envíos a todo el país</span>
+            </div>
+        </section>
+
+        <section class="qsomos">
+            <div class="contenedor_qsomos">
+                <div class="box_qsomos">
+                    <img src="./img/confetti.png" alt="confetti de colores">
+                    <h4>Venta a todo el público</h4>
+                    <p>Somos una organización dedicada a la venta de artículos de
+                        cotillón, carnaval carioca, repostería, golosinas, descartables,
+                        manualidades y artículos de Hogar-Bazar ubicada en Lavalle 2553,
+                        Capital Federal realizando envíos a todo el país.</p>
+                </div>
+                <div class="box_qsomos">
+                    <img src="./img/bonete.png" alt="bonete de colores">
+                    <h4>Productos Nacionales e Importados</h4>
+                    <p>En Cotillón FullFiesta contamos con un gran surtido de productos
+                        nacionales e importados con el objetivo de satisfacer todas sus
+                        necesidades, manteniendo siempre las nuevas tendencias del mercado
+                        permitiendo una innovación constante del rubro.</p>
+                </div>
+                <div class="box_qsomos">
+                    <img src="./img/globos.jpg" alt="globos de colores">
+                    <h4>Amplio Showroom</h4>
+                    <p>Disponemos de un amplio Showroom, dentro del cual encontrará
+                        profesionales capacitados para asesorarlo y ofrecerle la mejor
+                        atención
+                        buscando soluciones rápidas y eficientes. Nos esforzamos cada día
+                        para
+                        brindarle la mayor variedad de productos al mejor precio del mercado
+                        conservando la experiencia que nos caracteriza.</p>
+                </div>
+
+            </div>
+
+        </section>
+        <div class="box-text">
+            <p>¡¡ Los esperamos !!</p>
+        </div>
+    </main>
+
+    <footer class="footer-distributed">
+        <div class="footer-left">
+
+            <img src="./img/logo.png" alt="logo fullfiesta">
+
+            <p class="footer-links">
+                <a href="./index.html">Incio</a>
+                |
+                <a href="./productos.html">Productos</a>
+                |
+                <a href="./quienesSomos.html">Quienes Somos</a>
+                |
+                <a href="./contacto.html">Contacto</a>
+            </p>
+
+        </div>
+
+        <div class="footer-center">
+            <p class="footer-titulo-bloque">
+                <span>Contacto</span>
+            </p>
+            <div>
+                <i class="fa-solid fa-location-dot" style="color: #33383b;"></i>
+                <p><span> Lavalle 2553, Caba, Argentina</span></p>
+            </div>
+            <div>
+                <i class="fa-solid fa-phone" style="color: #33383b;"></i>
+                <p>+54 9 11 1234-4567</p>
+            </div>
+            <div>
+                <i class="fa-solid fa-envelope" style="color: #33383b;"></i>
+                <p>cotillonfullfiesta@gmail.com.ar</p>
+            </div>
+            <div>
+                <i class="fa-solid fa-clock" style="color: #33383b;"></i>
+                <p>Lunes a Viernes de 10 a 19hs</p>
+            </div>
+        </div>
+
+        <div class="footer-right">
+            <p class="footer-titulo-bloque">
+                <span>Redes</span>
+            </p>
+
+            <div class="footer-icons">
+                <a href="#"><i class="fa fa-whatsapp"></i></a>
+                <a href="#"><i class="fa fa-facebook"></i></a>
+                <a href="#"><i class="fa fa-instagram"></i></a>
+                <a href="#"><i class="fa fa-youtube"></i></a>
+
+            </div>
+        </div>
+        <div class="footer-company-name">
+            <p>Copyright &copy; 2024 - Todos los derechos reservados</p>
+        </div>
+    </footer>
+    <script src="/static/js/login.js"></script>
+</body>
+
+</html>

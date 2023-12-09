@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Listado de Categorías</title>
+    <script src="https://kit.fontawesome.com/266a30db49.js" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="/frontend/css/estilos_crud.css">
+    <link rel="stylesheet" href="/frontend/css/style.css">
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <a href="index.html">
+                <img src="./img/logo.png" alt="Logo FullFiesta">
+            </a>
+
+        </div>
+        <!-- MENU RESPONSIVE -->
+        <input type="checkbox" id="check">
+        <label for="check" class="mostrar-menu">
+            &#8801;
+        </label>
+        <nav class="menu">
+            <a href="index.html">Inicio</a>
+            <a href="productos.html">Productos</a>
+            <a href="quienesSomos.html">Quienes Somos</a>
+            <a href="contacto.html">Contacto</a>
+            <div class="sesion-menu">
+                <input type="checkbox" id="sesionCheck">
+                <label for="sesionCheck">
+                    <i class="fa-solid fa-user"></i>
+                </label>
+                <ul class="sesion-dropdown">
+                    <li><a href="login.html">Iniciar Sesión</a></li>
+                    <li><a href="#" onclick="cerrarSesion()">Cerrar Sesión</a></li>
+                </ul>
+            </div>
+            <label for="check" class="esconder-menu">
+                &#215;
+            </label>
+        </nav>
+    </header>
+    <main class="contenedor_crud">
+        <h1>Listado de Categorías</h1>
+        <h3>Cotillón FullFiesta</h3>
+        <div class="table-responsive">
+            <table class="table text-center">
+                <thead>
+                    <tr>
+                        <th class="align-middle">ID de Categoría</th>
+                        <th class="align-middle">Nombre de Categoría</th>
+                    </tr>
+                </thead>
+                <tbody id="tablaCategorias" class="align-middle"></tbody>
+            </table>
+        </div>
+
+        <div class="contenedor-centrado">
+            <a href="/frontend/panel_admin.html">Menú principal</a>
+        </div>
+    </main>
+    <footer class="footer-distributed">
+        <div class="footer-left">
+
+            <img src="./img/logo.png" alt="logo fullfiesta">
+
+            <p class="footer-links">
+                <a href="./index.html">Incio</a>
+                |
+                <a href="./productos.html">Productos</a>
+                |
+                <a href="./quienesSomos.html">Quienes Somos</a>
+                |
+                <a href="./contacto.html">Contacto</a>
+            </p>
+
+        </div>
+
+        <div class="footer-center">
+            <p class="footer-titulo-bloque">
+                <span>Contacto</span>
+            </p>
+            <div>
+                <i class="fa-solid fa-location-dot" style="color: #33383b;"></i>
+                <p><span> Lavalle 2553, Caba, Argentina</span></p>
+            </div>
+            <div>
+                <i class="fa-solid fa-phone" style="color: #33383b;"></i>
+                <p>+54 9 11 1234-4567</p>
+            </div>
+            <div>
+                <i class="fa-solid fa-envelope" style="color: #33383b;"></i>
+                <p>cotillonfullfiesta@gmail.com.ar</p>
+            </div>
+            <div>
+                <i class="fa-solid fa-clock" style="color: #33383b;"></i>
+                <p>Lunes a Viernes de 10 a 19hs</p>
+            </div>
+        </div>
+
+        <div class="footer-right">
+            <p class="footer-titulo-bloque">
+                <span>Redes</span>
+            </p>
+
+            <div class="footer-icons">
+                <a href="#"><i class="fa fa-whatsapp"></i></a>
+                <a href="#"><i class="fa fa-facebook"></i></a>
+                <a href="#"><i class="fa fa-instagram"></i></a>
+                <a href="#"><i class="fa fa-youtube"></i></a>
+
+            </div>
+        </div>
+        <div class="footer-company-name">
+            <p>Copyright &copy; 2024 - Todos los derechos reservados</p>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.min.js"></script>
+    <script src="/static/js/listadoCat.js"></script>
+    <script src="/static/js/login.js"></script>
+</body>
+
+</html>

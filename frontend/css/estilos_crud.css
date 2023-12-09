@@ -1,0 +1,110 @@
+/* Estilos para todo el proyecto */
+.contenedor_crud {
+    width: 80%;
+    max-width: 1000px;
+    margin: 80px auto;
+    padding: 20px;
+}
+
+.contenedor-centrado {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.contenedor_crud h1,
+.contenedor_crud h2,
+.contenedor_crud h3,
+.contenedor_crud h4,
+.contenedor_crud h5,
+.contenedor_crud h6 {
+    text-align: center;
+    margin: 15px;
+    color: #2e937a;
+}
+
+
+.contenedor_crud form {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: white;
+    border: 1px solid lightslategray;
+    border-radius: 5px;
+}
+
+
+.contenedor_crud table {
+    max-width: 90%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: white;
+    border: 1px solid lightslategray;
+    border-radius: 5px;
+    border-spacing: 20px;
+}
+
+.contenedor_crud label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+
+.contenedor_crud input[type="text"],
+.contenedor_crud input[type="number"],
+.contenedor_crud textarea {
+    width: 90%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+}
+
+
+.contenedor_crud input[type="submit"] {
+    padding: 10px;
+    background-color: #2e937a;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+.contenedor_crud input[type="submit"]:hover {
+    background-color: #23705d;
+}
+
+
+.contenedor_crud button {
+    padding: 8px;
+    margin: 4px;
+    background-color: #2e937a;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+.contenedor_crud button:hover {
+    background-color: #23705d;
+}
+
+
+.contenedor_crud a {
+    padding: 8px;
+    margin: 4px;
+    background-color: #e04891;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 85%;
+}
+
+
+.contenedor_crud a:hover {
+    background-color: #b83674;
+}
