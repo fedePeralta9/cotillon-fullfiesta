@@ -16,8 +16,9 @@ Asegúrate de tener instaladas las siguientes herramientas antes de ejecutar la 
 
 1. Instala las dependencias de Python:
 
-```bash
+``` bash
 pip install Flask Flask-CORS mysql-connector-python
+```
 
 2. Inicia tu servidor MySQL (por ejemplo, XAMPP) y asegúrate de que esté en ejecución.
 
@@ -29,8 +30,8 @@ python app.py
 
 4. Abre el navegador desde index.html para visualizar la pagina y tambien visita:
 
--Para ver la base de datos: http://127.0.1.1/phpmyadmin/
--Para acceder al backend: http://127.0.0.1:5000/productos
+- Para ver la base de datos: http://127.0.1.1/phpmyadmin/
+- Para acceder al backend: http://127.0.0.1:5000/productos
 
 ## Problemas Conocidos
 
