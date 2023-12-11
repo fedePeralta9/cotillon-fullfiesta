@@ -45,3 +45,4 @@ python app.py
 4. **Limitación 4:** No tiene implementada la opcion de "olvide la contraseña" en el login.
 5. **Limitación 5:** Solo muestra las imagenes de los productos, faltaria poner precioc stock, etc.
 6. **Limitación 6:** Seguridad debil de la pagina.
+7. **Limitación 7:** No tiene un buscador para filtrar productos.
