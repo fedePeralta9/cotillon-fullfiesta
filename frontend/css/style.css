@@ -956,7 +956,7 @@ footer {
 }
 
 /* RESPONSIVE para teléfonos pequeños como un  iPhone 6,  y teléfonos Android pequeños. */
-@media screen and (max-width:420px) {
+@media screen and (max-width:520px) {
 
     /* estilos inicio */
     h1 {
@@ -982,6 +982,7 @@ footer {
 
     .card {
         width: auto;
+        margin: 60px;
         height: 17.96rem;
 
     }
